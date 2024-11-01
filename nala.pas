@@ -6,7 +6,8 @@ begin
     clrscr;
     write('Masukkan jumlah minuman (n): ');
     readln(n);
-    MinumanHargaMurah := 9999; 
+    MinumanHargaMurah := 1000
+    ; 
     for i := 1 to n do
         begin
             write('Masukkan harga minuman ke-',i,':');
